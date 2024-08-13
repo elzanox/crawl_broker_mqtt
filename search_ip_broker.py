@@ -5,7 +5,7 @@ import os
 import csv
 # Ganti dengan nama file CSV yang sesuai
 # csv_file = 'result.csv'
-csv_file = 'data/218.234.0.0-218.235.255.255.csv'
+csv_file = 'data/alamat_ip.csv'
 headerr = ['ip_address','status','mqtt']
 # Ganti dengan nama kolom yang ingin dibaca
 target_column_name = 'ip_address'  # Contoh: membaca kolom dengan nama 'nama_kolom'

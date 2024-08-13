@@ -4,8 +4,8 @@ import time
 import os
 
 # Rentang alamat IP yang diinginkan
-start_ip = "218.234.0.0"
-end_ip = "218.235.255.255"
+start_ip = "103.127.96.0"
+end_ip = "103.127.97.255"
 output_csv = f'data/{start_ip}-{end_ip}.csv'
 # Mengecek apakah file sudah ada
 if not os.path.exists(output_csv):
